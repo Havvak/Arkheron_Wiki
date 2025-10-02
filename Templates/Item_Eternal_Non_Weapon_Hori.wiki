@@ -1,0 +1,60 @@
+<noinclude>
+This is the horizontal template for Eternal non-weapons.
+{{Item_Eternal_Non_Weapon_Hori
+| eternal = dahla
+| name = Dahla's Vanish Crown
+| type = Crown
+| image = Dahla Vanish Crown.png
+| ability = Vanish
+| ability_desc = Transform into an invulnerable fast-moving orb that is invisible to enemies.
+| ability_tags = <div>{{Item_tag|tag1=phased}}</div>
+| ability_stat1 = Cooldown: '''15'''s
+| ability_stat2 = Duration: '''1.5'''s
+| ability_stat3 = 
+| ability_stat4 = 
+| ability_stat5 = 
+| ability_stat6 = 
+| ability_stat7 = 
+| ability_stat8 =
+| ability_stat9 =
+| level2 = Cooldown reduced to 12 seconds
+| level3 = When leaving vanish you are invulnerable to damage for 1 second
+| set_bonus = '''Deep Pockets:''' Max stack of consumables increased
+}}
+</noinclude>
+
+<includeonly>
+{| class="wikitable" style="width:100%; text-align:left; background:#1c1c1c;"
+|-
+! colspan="2" style="text-align:center; font-size:130%; width:20%;" | {{{name|Unnamed Item}}}
+! style="text-align:center; width:80%;" | '''{{{ability}}}'''
+|-
+| colspan="2" style="text-align:center; font-style:italic; color:#aaa; font-size:90%;" | {{{type|Misc}}}
+| rowspan="2" valign="top" |
+<ul style="list-style:none; padding-left:0; margin:0;">
+  {{#if:{{{ability_tags|}}}|<li>{{{ability_tags}}}</li>}}
+  {{#if:{{{ability_stat1|}}}|<li><span style="color:#b59725;">{{{ability_stat1}}}</span></li>}}
+  {{#if:{{{ability_stat2|}}}|<li><span style="color:#b59725;">{{{ability_stat2}}}</span></li>}}
+  {{#if:{{{ability_stat3|}}}|<li><span style="color:#b59725;">{{{ability_stat3}}}</span></li>}}
+  {{#if:{{{ability_stat4|}}}|<li><span style="color:#b59725;">{{{ability_stat4}}}</span></li>}}
+  {{#if:{{{ability_stat5|}}}|<li><span style="color:#b59725;">{{{ability_stat5}}}</span></li>}}
+  {{#if:{{{ability_stat6|}}}|<li><span style="color:#b59725;">{{{ability_stat6}}}</span></li>}}
+  {{#if:{{{ability_stat7|}}}|<li><span style="color:#b59725;">{{{ability_stat7}}}</span></li>}}
+  {{#if:{{{ability_stat8|}}}|<li><span style="color:#b59725;">{{{ability_stat8}}}</span></li>}}
+  {{#if:{{{ability_stat9|}}}|<li><span style="color:#b59725;">{{{ability_stat9}}}</span></li>}}
+  {{#if:{{{ability_desc|}}}|<li><i>{{{ability_desc}}}</i></li>}}
+</ul>
+|-
+| colspan="2" style="text-align:center;"| [[File:{{{image|Dahla Vanish Crown.png}}}|100x100px]]
+|-
+! style="border-top: 3px solid #555; padding:0px 4px; line-height:1.1;" | Upgrades
+| colspan="3" style="border-top: 3px solid #555; padding:0px 4px; line-height:1.1;" |
+{{#if:{{{level2|}}}|[[File:Icon_Levels_2.png|15px]] {{{level2}}}}} • {{#if:{{{level3|}}}|[[File:Icon_Levels_3.png|15px]] {{{level3}}}}}
+|-
+! style="padding:0px 4px; line-height:1.1; | Set Bonus
+| colspan="3" style="padding:0px 4px; line-height:1.1; |
+[[File:{{{eternal|}}}_set_bonus.png|15px]] {{{set_bonus|missing_set_bonus}}}
+|}
+[[Category:Items]]
+[[Category:{{{type|Misc}}}s]]
+</includeonly>

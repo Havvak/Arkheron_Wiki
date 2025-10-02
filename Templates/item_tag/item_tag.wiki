@@ -1,0 +1,23 @@
+<noinclude>
+This template outputs one or more styled tags. The color has been defined based on the tag name. Tags are case insensitive.
+<pre><div>{{Item_tag|tag1=Heal|tag2=Lifesteal}}</div></pre>
+Styled Tags:
+<div>{{Item_tag|tag1=Heal|tag2=Lifesteal}}</div>
+<div>{{Item_tag|tag1=Build|tag2=Summon}}</div>
+<div>{{Item_tag|tag1=Block|tag2=Pass Through|tag3=Armor|tag4=Negates Piercing|tag5=Negates Crushing|tag6=Damage Mitigation|tag7=Invulnerable}}</div>
+<div>{{Item_tag|tag1=Phased|tag2=Teleport}}</div>
+<div>{{Item_tag|tag1=Movement Increase|tag2=Invisible|tag3=Steadfast|tag4=Stealthed|tag5=Cooldown Reduction|tag6=Reset On Kill}}</div>
+<div>{{Item_tag|tag1=Stun|tag2=Grab|tag3=Throw|tag4=Exhaust|tag5=Displacement|tag6=Slow|tag7=Root|tag8=Vulnerable|tag9=Knockback}}</div>
+<div>{{Item_tag|tag1=Crushing|tag2=Piercing|tag3=Exploding|tag4=Damage Over Time|tag5=Damage Reflect|tag6=Embed|tag7=Exploding}}</div>
+<div>{{Item_tag|tag1=Damage Increase}}</div>
+
+Any tag that isn't a supported keyword will have a default styling and show the text written:
+<pre><div>{{Item_tag|tag1=Every|tag2=OTHER|tag3=Tag}}</div></pre>
+<div>{{Item_tag|tag1=Every|tag2=OTHER|tag3=Tag}}</div>
+
+Add ":lv3" to the end of a tag to add the level 3 icon:
+<pre><div>{{Item_tag|tag1=Piercing|tag2=Stun|tag3=Reset On Kill:lv3}}</div></pre>
+<div>{{Item_tag|tag1=Piercing|tag2=Stun|tag3=Reset On Kill:lv3}}</div>
+</noinclude>
+
+<includeonly>{{#if:{{{tag1|}}}|{{Item_tag/render|{{{tag1}}}}}}}{{#if:{{{tag2|}}}| {{Item_tag/render|{{{tag2}}}}}}}{{#if:{{{tag3|}}}| {{Item_tag/render|{{{tag3}}}}}}}{{#if:{{{tag4|}}}| {{Item_tag/render|{{{tag4}}}}}}}{{#if:{{{tag5|}}}| {{Item_tag/render|{{{tag5}}}}}}}{{#if:{{{tag6|}}}| {{Item_tag/render|{{{tag6}}}}}}}{{#if:{{{tag7|}}}| {{Item_tag/render|{{{tag7}}}}}}}{{#if:{{{tag8|}}}| {{Item_tag/render|{{{tag8}}}}}}}{{#if:{{{tag9|}}}| {{Item_tag/render|{{{tag9}}}}}}}{{#if:{{{tag10|}}}| {{Item_tag/render|{{{tag10}}}}}}}</includeonly>

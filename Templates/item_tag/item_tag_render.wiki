@@ -1,0 +1,47 @@
+<includeonly>{{#switch:{{lc:{{#explode:{{{1}}}|:|0}}}}
+ <!-- Heal | background:#181605; color:#c1c18a; -->6
+ | heal = <span style="vertical-align:middle; background:#181605; color:#c1c18a; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''HEAL'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | lifesteal = <span style="vertical-align:middle; background:#181605; color:#c1c18a; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''LIFESTEAL'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- Summon | background:#0a120c; color:#5e724e; -->
+ | build = <span style="background:#0a120c; color:#5e724e; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''BUILD'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | summon = <span style="background:#0a120c; color:#5e724e; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''SUMMON'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- Block/Armor | background:#0b1115; color:#4e7088; -->
+ | block = <span style="background:#0b1115; color:#4e7088; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''BLOCK'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | pass through = <span style="background:#0b1115; color:#4e7088; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''PASS THROUGH'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | armor = <span style="background:#0b1115; color:#4e7088; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''ARMOR'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | negates piercing = <span style="background:#0b1115; color:#4e7088; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''NEGATES PIERCING'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | negates crushing = <span style="background:#0b1115; color:#4e7088; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''NEGATES CRUSHING'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | damage mitigation = <span style="background:#0b1115; color:#4e7088; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''DAMAGE MITIGATION'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | invulnerable = <span style="background:#0b1115; color:#4e7088; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''INVULNERABLE'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- Phased/Teleport | background:#0a1413; color:#47716b; -->
+ | phased = <span style="background:#0a1413; color:#47716b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''PHASED'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | teleport = <span style="background:#0a1413; color:#47716b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''TELEPORT'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- Movement / Cooldown Modifying | background:#141007; color:#947f44; -->
+ | movement increase = <span style="background:#141007; color:#947f44; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''MOVEMENT INCREASE'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | invisible = <span style="background:#141007; color:#947f44; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''INVISIBLE'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | steadfast = <span style="background:#141007; color:#947f44; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''STEADFAST'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | stealthed = <span style="background:#141007; color:#947f44; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''STEALTHED'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | cooldown reduction = <span style="background:#141007; color:#947f44; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''COOLDOWN REDUCTION'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | reset on kill = <span style="background:#141007; color:#947f44; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''RESET ON KILL'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- Status Effects | background:#0f0a12; color:#80678b; -->
+ | stun = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''STUN'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | grab = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''GRAB'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | throw = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''THROW'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | exhaust = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''EXHAUST'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | displacement = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''DISPLACEMENT'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | slow = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''SLOW'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | root = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''ROOT'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | vulnerable = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''VULNERABLE'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | knockback = <span style="background:#0f0a12; color:#80678b; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''KNOCKBACK'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- Damage Types | background:#150808; color:#a7554d; -->
+ | crushing = <span style="background:#150808; color:#a7554d; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''CRUSHING'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | piercing = <span style="background:#150808; color:#a7554d; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''PIERCING'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | exploding = <span style="background:#150808; color:#a7554d; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''EXPLODING'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | damage over time = <span style="background:#150808; color:#a7554d; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''DAMAGE OVER TIME'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | damage reflect = <span style="background:#150808; color:#a7554d; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''DAMAGE REFLECT'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ | embed = <span style="background:#150808; color:#a7554d; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''EMBED'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- Damage Increase | background:#1a1108; color:#8d5731; -->
+ | damage increase = <span style="background:#1a1108; color:#8d5731; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">'''DAMAGE INCREASE'''{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+ <!-- default | background:#151515; color:#b8b5ac; -->
+ | #default = <span style="background:#151515; color:#b8b5ac; padding:2px 6px; border-radius:4px; border:1px solid #323030; font-size:80%;">{{uc:'''{{{1}}}'''}}{{#if:{{#explode:{{{1}}}|:|1}}| [[File:Icon_Levels_3.png|15px]]}}</span>
+}}</includeonly>
