@@ -1,6 +1,6 @@
 <noinclude>
 This template outputs one or more styled tags. The color has been defined based on the tag name. Tags are case insensitive.
-<pre><div>{{Item_tag|tag1=Heal|tag2=Lifesteal}}</div></pre>
+<pre>{{Item_tag|tag1=Heal|tag2=Lifesteal}}</pre>
 Styled Tags:
 <div>{{Item_tag|tag1=Heal|tag2=Lifesteal}}</div>
 <div>{{Item_tag|tag1=Build|tag2=Summon}}</div>
@@ -12,11 +12,11 @@ Styled Tags:
 <div>{{Item_tag|tag1=Damage Increase}}</div>
 
 Any tag that isn't a supported keyword will have a default styling and show the text written:
-<pre><div>{{Item_tag|tag1=Every|tag2=OTHER|tag3=Tag}}</div></pre>
+<pre>{{Item_tag|tag1=Every|tag2=OTHER|tag3=Tag}}</pre>
 <div>{{Item_tag|tag1=Every|tag2=OTHER|tag3=Tag}}</div>
 
 Add ":lv3" to the end of a tag to add the level 3 icon:
-<pre><div>{{Item_tag|tag1=Piercing|tag2=Stun|tag3=Reset On Kill:lv3}}</div></pre>
+<pre>{{Item_tag|tag1=Piercing|tag2=Stun|tag3=Reset On Kill:lv3}}</pre>
 <div>{{Item_tag|tag1=Piercing|tag2=Stun|tag3=Reset On Kill:lv3}}</div>
 </noinclude>
 

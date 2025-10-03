@@ -3,7 +3,7 @@ This is the vertical template for Eternal weapons.
 {{Item_Eternal_Weapon_Vert
 | eternal = dahla
 | name = Dahla's Throwing Knives
-| type = Weapon
+| type = weapon
 | image = Dahla Throwing Knives.png
 | attack = Pirouette Throw
 | attack_desc =
@@ -34,18 +34,55 @@ This is the vertical template for Eternal weapons.
 | set_bonus = '''Deep Pockets:''' Max stack of consumables increased
 | flavor = You glide across the boards. They creak. The music drowns your imperfections out.
 }}
+Usage
+<pre>
+{{Item_Eternal_Weapon_Vert
+| eternal = dahla
+| name = Dahla's Throwing Knives
+| type = weapon
+| image = Dahla Throwing Knives.png
+| attack = Pirouette Throw
+| attack_desc =
+| attack_tags = <div>{{Item_tag|tag1=Continuous-Shot}}</div>
+| attack_stat1 = Ranged Damage: '''14'''
+| attack_stat2 = Ammo: '''6'''
+| attack_stat3 = Max Distance: '''12'''m
+| attack_stat4 = 
+| attack_stat5 = 
+| attack_stat6 = 
+| attack_stat7 = 
+| attack_stat8 =
+| attack_stat9 =
+| ability = Blade Barrier
+| ability_desc = Surround yourself with knives. Each blade damages on impact.
+| ability_tags = <div>{{Item_tag|tag1=Aura}}</div>
+| ability_stat1 = Ranged Damage: '''5'''
+| ability_stat2 = Cooldown: '''15'''s
+| ability_stat3 = Duration: '''8'''s
+| ability_stat4 = Ammo: '''12'''
+| ability_stat5 = 
+| ability_stat6 = 
+| ability_stat7 = 
+| ability_stat8 =
+| ability_stat9 =
+| level2 = Cooldown reduced to 12 seconds
+| level3 = Pirouette flings 2 knives every rotation
+| set_bonus = '''Deep Pockets:''' Max stack of consumables increased
+| flavor = You glide across the boards. They creak. The music drowns your imperfections out.
+}}
+</pre>
 </noinclude>
 
 <includeonly>
-{| class="wikitable" style="width:400px; text-align:left; background:#1c1c1c;"
+{| class="wikitable" style="text-align:left; background:#1c1c1c;"
 |-
 ! colspan="2" style="text-align:center; font-size:130%;" | {{{name|Unnamed Item}}}
 |-
-| colspan="2" style="text-align:center; font-style:italic; color:#aaa; font-size:90%;" | {{{type|Misc}}}
+| colspan="2" style="text-align:center; font-style:italic; color:#aaa; font-size:90%; padding:1px 4px; line-height:1.1;" | {{{type|Misc}}}
 |-
 | colspan="2" style="text-align:center;"| [[File:{{{image|Dahla Vanish Crown.png}}}|250x250px]]
 |-
-! '''{{{attack}}}'''
+! '''{{{attack}}}'''   [[File:MOUSE_Left.png|15px]]
 |
 <ul style="list-style:none; padding-left:0; margin:0;">
   {{#if:{{{attack_tags|}}}|<li>{{{attack_tags}}}</li>}}
@@ -61,7 +98,7 @@ This is the vertical template for Eternal weapons.
   {{#if:{{{attack_desc|}}}|<li><i>{{{attack_desc}}}</i></li>}}
 </ul>
 |-
-! '''{{{ability}}}'''
+! '''{{{ability}}}'''   [[File:MOUSE_Right.png|15px]]
 |
 <ul style="list-style:none; padding-left:0; margin:0;">
   {{#if:{{{ability_tags|}}}|<li>{{{ability_tags}}}</li>}}
