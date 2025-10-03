@@ -3,7 +3,7 @@ This is the vertical template for Eternal non-weapons.
 {{Item_Eternal_Non_Weapon_Vert
 | eternal = dahla
 | name = Dahla's Vanish Crown
-| type = Crown
+| type = crown
 | image = Dahla Vanish Crown.png
 | ability = Vanish
 | ability_desc = Transform into an invulnerable fast-moving orb that is invisible to enemies.
@@ -22,14 +22,39 @@ This is the vertical template for Eternal non-weapons.
 | set_bonus = '''Deep Pockets:''' Max stack of consumables increased
 | flavor = In the spotlight... she dances. Her clothes itch. A body sits in a wooden chair. Why can't she move?
 }}
+Usage:
+<pre>
+{{Item_Eternal_Non_Weapon_Vert
+| eternal = dahla
+| name = Dahla's Vanish Crown
+| type = crown
+| image = Dahla Vanish Crown.png
+| ability = Vanish
+| ability_desc = Transform into an invulnerable fast-moving orb that is invisible to enemies.
+| ability_tags = <div>{{Item_tag|tag1=phased}}</div>
+| ability_stat1 = Cooldown: '''15'''s
+| ability_stat2 = Duration: '''1.5'''s
+| ability_stat3 = 
+| ability_stat4 = 
+| ability_stat5 = 
+| ability_stat6 = 
+| ability_stat7 = 
+| ability_stat8 =
+| ability_stat9 =
+| level2 = Cooldown reduced to 12 seconds
+| level3 = When leaving vanish you are invulnerable to damage for 1 second
+| set_bonus = '''Deep Pockets:''' Max stack of consumables increased
+| flavor = In the spotlight... she dances. Her clothes itch. A body sits in a wooden chair. Why can't she move?
+}}
+</pre>
 </noinclude>
 
 <includeonly>
-{| class="wikitable" style="width:400px; text-align:left; background:#1c1c1c;"
+{| class="wikitable" style="text-align:left; background:#1c1c1c;"
 |-
 ! colspan="2" style="text-align:center; font-size:130%;" | {{{name|Unnamed Item}}}
 |-
-| colspan="2" style="text-align:center; font-style:italic; color:#aaa; font-size:90%;" | {{{type|Misc}}}
+| colspan="2" style="text-align:center; font-style:italic; color:#aaa; font-size:90%; padding:1px 4px; line-height:1.1;" | {{{type|Misc}}}
 |-
 | colspan="2" style="text-align:center;"| [[File:{{{image|Dahla Vanish Crown.png}}}|250x250px]]
 |-

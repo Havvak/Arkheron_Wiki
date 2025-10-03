@@ -7,7 +7,7 @@ This is the horizontal template for Eternal weapons.
 | image = Dahla Throwing Knives.png
 | attack = Pirouette Throw
 | attack_desc =
-| attack_tags = <div>{{Item_tag|tag1=Continuous-Shot}}</div>
+| attack_tags = {{Item_tag|tag1=Continuous-Shot}}
 | attack_stat1 = Ranged Damage: '''14'''
 | attack_stat2 = Ammo: '''6'''
 | attack_stat3 = Max Distance: '''12'''m
@@ -19,7 +19,7 @@ This is the horizontal template for Eternal weapons.
 | attack_stat9 =
 | ability = Blade Barrier
 | ability_desc = Surround yourself with knives. Each blade damages on impact.
-| ability_tags = <div>{{Item_tag|tag1=aura}}</div>
+| ability_tags = {{Item_tag|tag1=aura}}
 | ability_stat1 = Ranged Damage: '''5'''
 | ability_stat2 = Cooldown: '''15'''s
 | ability_stat3 = Duration: '''8'''s
@@ -33,16 +33,52 @@ This is the horizontal template for Eternal weapons.
 | level3 = Pirouette flings 2 knives every rotation
 | set_bonus = '''Deep Pockets:''' Max stack of consumables increased
 }}
+Usage:
+<pre>
+{{Item_Eternal_Weapon_Hori
+| eternal = dahla
+| name = Dahla's Throwing Knives
+| type = weapon
+| image = Dahla Throwing Knives.png
+| attack = Pirouette Throw
+| attack_desc =
+| attack_tags = {{Item_tag|tag1=Continuous-Shot}}
+| attack_stat1 = Ranged Damage: '''14'''
+| attack_stat2 = Ammo: '''6'''
+| attack_stat3 = Max Distance: '''12'''m
+| attack_stat4 = 
+| attack_stat5 = 
+| attack_stat6 = 
+| attack_stat7 = 
+| attack_stat8 =
+| attack_stat9 =
+| ability = Blade Barrier
+| ability_desc = Surround yourself with knives. Each blade damages on impact.
+| ability_tags = {{Item_tag|tag1=aura}}
+| ability_stat1 = Ranged Damage: '''5'''
+| ability_stat2 = Cooldown: '''15'''s
+| ability_stat3 = Duration: '''8'''s
+| ability_stat4 = Ammo: '''12'''
+| ability_stat5 = 
+| ability_stat6 = 
+| ability_stat7 = 
+| ability_stat8 =
+| ability_stat9 =
+| level2 = Cooldown reduced to 12 seconds
+| level3 = Pirouette flings 2 knives every rotation
+| set_bonus = '''Deep Pockets:''' Max stack of consumables increased
+}}
+</pre>
 </noinclude>
 
 <includeonly>
 {| class="wikitable" style="width:100%; text-align:left; background:#1c1c1c;"
 |-
 ! colspan="2" style="text-align:center; font-size:130%; width:20%;" | {{{name|Unnamed Item}}}
-! style="text-align:center; width:40%;" | '''{{{attack}}}'''
-! style="text-align:center; width:40%;" | '''{{{ability}}}'''
+! style="text-align:center; width:40%;" | '''{{{attack}}}'''   [[File:MOUSE_Left.png|15px]]
+! style="text-align:center; width:40%;" | '''{{{ability}}}'''   [[File:MOUSE_Right.png|15px]]
 |-
-| colspan="2" style="text-align:center; font-style:italic; color:#aaa; font-size:90%;" | {{{type|Misc}}}
+| colspan="2" style="text-align:center; font-style:italic; color:#aaa; font-size:90%; padding:1px 4px; line-height:1.1;" | {{{type|Misc}}}
 | rowspan="2" valign="top" |
 <ul style="list-style:none; padding-left:0; margin:0;">
   {{#if:{{{attack_tags|}}}|<li>{{{attack_tags}}}</li>}}
